@@ -1,0 +1,85 @@
+:root {
+	--ligth: ;
+
+	--text-color-base: ;
+	--text-color-body: ;
+	--text-color-section: ;
+
+	--back-color-base: ;
+	--back-color-body: ;
+	--back-color-section: ;
+}
+
+/*   flex   */
+
+.flex_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex_row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-center {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-start {
+	align-items: start;
+	justify-content: start;
+}
+
+/*   utile   */
+
+.gap-4px {
+	gap: 4px;
+}
+
+.gap-8px {
+	gap: 8px;
+}
+
+.gap-16px {
+	gap: 16px;
+}
+
+.gap-32px {
+	gap: 32px;
+}
+
+.border-radius-4px {
+	border-radius: 4px;
+}
+
+.border-radius-8px {
+	border-radius: 8px;
+}
+
+.border--radius-16px {
+	border-radius: 16px;
+}
+
+.border--radius-32px {
+	border-radius: 32px;
+}
+
+/*   classe toute faite   */
+
+.btn-normal {
+	background: transparent;
+	border: 1.5px solid black;
+	padding: 6px 8px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*   typo   */
+
+.Title {
+	font-size: 64px;
+	font-weight: 700;
+	color: --text-color-base;
+}

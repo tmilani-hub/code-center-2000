@@ -1,0 +1,13 @@
+:root {
+}
+
+:root.nigth-mode {
+}
+
+/*   tablet   */
+@media screen and (720px < width) {
+}
+
+/*   desckstop   */
+@media screen and (1024px < width) {
+}
