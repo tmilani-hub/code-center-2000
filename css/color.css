@@ -1,0 +1,33 @@
+:root {
+    --text-color-h1: rgba(27, 27, 27, 0.839);
+    --text-color-base: rgba(41, 37, 37, 0.986);
+    --text-color-body: ;
+    --text-color-section: ;
+
+    --backGround-color-base: rgba(246, 225, 255, 0.668);
+    --backGround-color-body: ;
+    --backGround-color-section: ;
+
+    --backGround-color-btn: transparent;
+    --backGround-color-btn-hover-opacyti: 0.75;
+
+    --backGround-color-headerAndFooter: rgba(246, 225, 255, 0.968);
+
+    --svg-color: rgb(0, 0, 0);
+}
+
+:root.nigth-mode {
+    --text-color-h1: rgba(119, 31, 31, 0.839);
+    --text-color-base: rgba(41, 37, 37, 0.986);
+    --text-color-body: ;
+    --text-color-section: ;
+
+    --backGround-color-base: rgba(184, 198, 231, 0.52);
+    --backGround-color-body: ;
+    --backGround-color-section: ;
+
+    --backGround-color-btn: transparent;
+    --hover-color-btn: ;
+
+    --svg-color: rgb(0, 0, 0);
+}

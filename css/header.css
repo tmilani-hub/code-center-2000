@@ -1,0 +1,42 @@
+.h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-color-h1);
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    padding: 4px 8px;
+    background-color: var(--backGround-color-headerAndFooter);
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+.logo:hover {
+    animation: Logo_spin 2s ease-in-out;
+}
+
+@keyframes Logo_spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(-395deg);
+    }
+    90% {
+        transform: rotate(30deg);
+    }
+    97% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
